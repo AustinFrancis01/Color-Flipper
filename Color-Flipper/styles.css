@@ -1,0 +1,52 @@
+.fascinate-inline-regular {
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+  body{
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+  }
+
+  button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+    height: 100px;
+    border-radius: 25px;
+    border: 0px;
+  }
+
+  #red{
+    background-color: red;
+    color: white;
+  }
+  #green{
+     background-color: green;
+     color: white;
+  }
+  #blue{
+    background-color: blue;
+    color: white;
+  }
+  #random{
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    color: white;
+  }
